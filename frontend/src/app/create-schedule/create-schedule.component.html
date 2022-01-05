@@ -1,0 +1,50 @@
+<div class="create-container mat-form mat bg-transparent text-light">
+    <form class="create-container" [formGroup]="options" (ngSubmit)="handleSubmit()">
+        <div class="inline-flex">
+            <mat-form-field appearance="outline" class="col-md-6">
+                <mat-label>
+                    <mat-icon>cloud</mat-icon>
+                    Environment
+                </mat-label>
+                <mat-select required aria-required="true" required formControlName="scanSchedule">
+                    <mat-option value='production'>Production</mat-option>
+                    <mat-option value='staging'>Staging</mat-option>
+                    <mat-option value='develop'>Develop</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <mat-form-field class="col-md-12" [hideRequiredMarker]="options.value.hideRequired" aria-required="true"
+            appearance="outline">
+            <mat-label>
+                <mat-icon>person_pin</mat-icon>
+                Customer Id
+            </mat-label>
+            <input matInput required formControlName="name" placeholder="The id of the customer in App Personalization">
+        </mat-form-field>
+        <div class="inline-flex">
+            <mat-form-field aria-required="true" appearance="outline" class="col-md-6">
+                <mat-label>
+                    <b>
+                        <mat-icon>apps</mat-icon>
+                    </b>
+                    Personalization Id
+                </mat-label>
+                <input matInput required placeholder="The id of the personalization created by customer" formControlName="repo">
+            </mat-form-field>
+        </div>
+        <div class="inline-flex">
+            <mat-form-field class="col-md-12" aria-required="false" appearance="outline">
+                <mat-label>
+                    <mat-icon>link</mat-icon>
+                    Bundle Id
+                </mat-label>
+                <input matInput placeholder="bundle Id if the customer is already on Play Store / App Store"
+                    formControlName="bvtUrl">
+            </mat-form-field>
+        </div>
+
+        <div class="col-md-2 no-padding">
+            <button mat-raised-button class="btn btn-primary" type="submit">Submit!</button>
+        </div>
+    </form>
+</div>

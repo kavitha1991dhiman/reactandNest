@@ -1,0 +1,11 @@
+.router-outlet {
+    position: relative;
+    margin-top: 120px;
+}
+.pre-sidebar {
+    background-color:#05386B;
+    color: #808080;
+}
+.no-padding{
+    padding: 0px !important;
+}

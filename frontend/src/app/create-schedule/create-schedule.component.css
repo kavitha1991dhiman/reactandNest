@@ -1,0 +1,91 @@
+.create-container {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+
+.create-container>* {
+  width: 100%;
+}
+
+.create-container form {
+  margin-bottom: 10px;
+}
+
+.create-container form>* {
+  margin: 5px 0;
+}
+
+.create-container .mat-radio-button {
+  margin: 0 5px;
+}
+
+.inline-flex {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+::ng-deep .error {
+  background-color: rgb(136, 56, 56);
+  color: rgb(247, 196, 196);
+}
+
+::ng-deep .success {
+  background-color: rgb(25, 44, 35);
+  color: rgb(184, 241, 192);
+}
+
+.create-container {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+
+.create-container>* {
+  width: 100%;
+}
+
+.create-container form {
+  margin-bottom: 10px;
+}
+
+.create-container form>* {
+  margin: 5px 0;
+}
+
+.create-container .mat-radio-button {
+  margin: 0 5px;
+}
+
+.inline-flex {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+::ng-deep .error {
+  background-color: rgb(136, 56, 56);
+  color: rgb(247, 196, 196);
+}
+
+::ng-deep .success {
+  background-color: rgb(25, 44, 35);
+  color: rgb(184, 241, 192);
+}
+
+.btn-primary {
+  border-color: #0b0a29;
+  background-color: #0b0a29;
+
+}
+
+::ng-deep .mat-form-field-label {
+  color: #0b0a29;
+}

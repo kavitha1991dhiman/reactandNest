@@ -1,0 +1,17 @@
+.sidebar {
+  position: relative;
+  margin-top: 120px;
+  margin-left: 0px !important;
+  list-style-type: none;
+}
+
+.sidebar .nav-item {
+  font-family: 'Josefin Sans', sans-serif;
+  /* text-shadow: #333 2px 1px; */
+  font-weight: 350;
+  line-height: 1.2;
+  font-size: 1rem;
+  padding: .9rem;
+  /*border: blue dotted;
+  border-width: .1em 0;*/
+}

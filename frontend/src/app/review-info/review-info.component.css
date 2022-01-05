@@ -1,0 +1,39 @@
+.list {
+  margin-top: 3%;
+}
+
+::ng-deep .error {
+  background-color: rgb(136, 56, 56);
+  color: rgb(247, 196, 196);
+}
+
+::ng-deep .success {
+  background-color: rgb(25, 44, 35);
+  color: rgb(184, 241, 192);
+}
+
+.hand-pointer {
+  color: rgb(204, 39, 39);
+  cursor: pointer;
+}
+
+.no-right-padding {
+  padding-right: 0px !important;
+}
+
+td {
+  font-size: 13px;
+}
+
+::ng-deep .mat-table {
+  background: rgba(255, 255, 255, 0);
+}
+
+::ng-deep .mat-paginator {
+  background: rgba(255, 255, 255, 0);
+  color: #0b0a29;
+}
+
+::ng-deep .mat-header-cell {
+  color: #0b0a29;
+}

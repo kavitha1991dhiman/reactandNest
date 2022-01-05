@@ -1,0 +1,43 @@
+{
+  "name": "automateddependencyupdater",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:server-dev": "gulp start:server-dev",
+    "start:frontend-dev": "gulp start:frontend-dev",
+    "start:server-debug": "gulp start:server-debug",
+    "start:dev": "gulp start:dev",
+    "start:debug": "gulp start:debug"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.10",
+    "azure-devops-node-api": "^9.0.1",
+    "bull": "^3.10.0",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "~1.4.4",
+    "csurf": "^1.10.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.18.0",
+    "http-errors": "~1.6.3",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.1",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-oauth": "^1.0.0",
+    "pug": "^2.0.4",
+    "rimraf": "^2.6.3",
+    "rmfr": "^2.0.0",
+    "sendmail": "^1.4.1",
+    "shell-exec": "^1.0.2",
+    "simple-git": "^1.116.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.7.1"
+  }
+}
